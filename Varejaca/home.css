@@ -1,0 +1,55 @@
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial Black, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+@keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+body{
+    background-image:url(pag_inicial/fundo.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+ul{
+    animation: fade-in 5s ease-in-out;
+    padding-top: 0.5%;
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    margin-right: 5%;
+}
+
+
+
+a {
+    color: #fff;
+    text-decoration: none;
+    background-color: darkgreen;
+    border-color: darkgreen;
+    border-style: solid;
+    border-width: 40%;
+    border-radius: 8%;
+    margin-right: 5%;
+
+}
+
+@media screen and (max-width:800px) {
+    a {
+        font-size: 90%;
+    }
+
+}

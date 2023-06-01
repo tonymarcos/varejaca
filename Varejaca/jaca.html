@@ -1,0 +1,33 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jaca.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://hcaptcha.com/1/api.js" async defer></script>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    
+    <script src="jaca.js"></script>
+    <title>Jaca</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Compra de Jaca</h1>
+        <div class="fruit-image">
+            <img src="fruta_img/jaca.jpg" alt="Imagem de Jaca">
+        </div>
+        <div class="info">
+            <div class="captcha-container">
+                <div class="h-captcha" data-sitekey="cbf9fe92-f1f4-4d5b-8e2f-d5f1d9f48d33"></div>
+            </div>
+            <p class="price">Preço por unidade: R$ 5,00</p>
+            <div id="description"></div>
+            <p class="read-more"><button id="read-more-button">Ler mais</button></p>
+            <button class="buy-button">Comprar</button>
+        </div>
+    </div>
+</body>
+</html>
